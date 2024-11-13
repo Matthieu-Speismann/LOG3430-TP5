@@ -28,4 +28,4 @@ jobs:
 
             - name: Load Test
               run: |
-                locust --config-users scenario_PartA.json --users 10000 --spawn-rate 100 --run-time 2m --host '0.0.0.0' --port 5000 --headless
+                locust --config-users scenario_PartA.json --users 10000 --spawn-rate 100 --run-time 2m --host '0.0.0.0' --web-port 5000 --headless
